@@ -42,12 +42,15 @@ body {
 }
 
 .button {
+    display: inline-block;
     background: #f4b400;
     color: black;
-    padding: 15px 30px;
+    padding: 15px 32px;
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
+    margin-top: 24px;
+    line-height: 1;
 }
 
 .story,
@@ -64,6 +67,11 @@ h2 {
 
 ul {
     padding-left: 20px;
+}
+
+.waitlist p {
+    margin-bottom: 10px;
+    max-width: 760px;
 }
 
 footer {
